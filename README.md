@@ -21,7 +21,6 @@ returns better than one that looks at each company alone.
 | File | What it is |
 |---|---|
 | `Connected_Markets_progress.ipynb` | Main notebook: data download and cleaning, graph construction, baselines, GNN training and evaluation |
-| `Supply_chain_pilot.ipynb` | Extracts major-customer disclosures from SEC 10-K filings to build supply-chain links |
 | `progress_report.pdf` | Progress report |
 | `report/` | LaTeX source of the progress report (course template), references and figures |
 
@@ -60,7 +59,7 @@ for the full analysis.
 
 ## Next steps
 
-- Run the supply-chain extraction on all filings and report verified links per year
+- Build supply-chain links from major-customer disclosures in SEC 10-K filings and report verified links per year
 - Add directed customer-to-supplier links that pass the customer's previous-week return and volume
   shock through a learned lag gate
 - Add returns relative to the market and sector as inputs, and train with a ranking loss
